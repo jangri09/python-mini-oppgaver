@@ -1,0 +1,1 @@
+det vanskigste for meg var funksjoner. forstår fortsatt ikke det helt. for å løse problemene jeg fant så prøvde jeg å finne svar på nett, ved hjelp av AI eller eirik. til neste gang vil jeg fokusere mer på å ha det morsomt og å lære mest mulig, istede for å bare bli ferdig
