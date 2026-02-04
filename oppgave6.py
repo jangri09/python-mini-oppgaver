@@ -28,12 +28,15 @@ if input("Start spillet?: ").strip().lower() == 'ja':
     print(f"navn: {p2.name}, HP: {p2.hp}, Lever: {p2.is_alive()}")
     while True:
         if p1.hp <= 0 and p2.hp <= 0:
+            print()
             print("Begge spillere er døde! Det er uavgjort!")
             break
         elif p2.hp <= 0:
+            print()
             print(f"{p2.name} er død! {p1.name} vant!")
             break
         elif p1.hp <= 0:
+            print()
             print(f"{p1.name} er død! {p2.name} vant!")
             break
         elif input("Trykk enter for å fortsette: ") == '':
@@ -47,6 +50,7 @@ if input("Start spillet?: ").strip().lower() == 'ja':
             print(f"navn: {p1.name}, HP: {p1.hp}, Lever: {p1.is_alive()}")
             print(f"navn: {p2.name}, HP: {p2.hp}, Lever: {p2.is_alive()}")
         else:
+            print()
             print("Avslutter spillet.")
             break
 else:
